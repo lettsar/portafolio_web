@@ -9,6 +9,7 @@
 /*:::::::::::::::Variables Definidas::::::::::::::::::::::*/
 :root {
   --colorMenu: linear-gradient(90deg, #0f172a, #0b1e3a);
+  --color-oscuro: linear-gradient(90deg, #000000, #0a0a0a);
   --font-base: "Inter", sans-serif;
   --font-size-base: 16px;
   --color-font: #fff;
@@ -31,6 +32,7 @@ html {
   flex-direction: column;
   min-height: 100vh;
   align-items: center;
+  background: var(--colorMenu);
   margin: 0;
   background-image: url(../img/fdo.png);
   background-size: cover;
@@ -39,6 +41,9 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+.contenedor_dfo2 {
+  background-image: url(../img/fdo_Oscuro.png);
 }
 /*::::::::::::::Header::::::::::::::::::::*/
 .header {
@@ -51,6 +56,9 @@ html {
   padding-right: 50px;
   border-bottom: 1px #fff solid;
   background: var(--colorMenu);
+}
+.header-oscuro {
+  background: var(--color-oscuro);
 }
 /*:::::::::::::::::Logo::::::::::::::::::::::*/
 
@@ -114,7 +122,14 @@ html {
 .mnu a.active::after {
   width: 100%;
 }
-/*:::::::::::::::::Boton de Descarga::::::::::::::::::*/
+/*:::::::::::::::::Bttones::::::::::::::::::*/
+.toggle-btn {
+  background: transparent;
+  border: none;
+  font-size: 28px; /* tamaño del icono */
+  cursor: pointer;
+  padding: 5px;
+}
 .btn-cv {
   display: flex;
   align-items: center;
