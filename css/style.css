@@ -1,3 +1,4 @@
+@import url(/css/componentes.css);
 *,
 *::after,
 *::before {
@@ -257,4 +258,7 @@ html {
 .titulo-hab span {
   display: inline-block;
   vertical-align: middle;
+}
+.textSobreMi {
+  text-align: justify;
 }

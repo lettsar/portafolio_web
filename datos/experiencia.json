@@ -1,0 +1,42 @@
+[
+  {
+    "imagen": "./img/iasa.png",
+    "empresa": "Empresa 1",
+    "cargo": "Cargo 1",
+    "tiempo": "Actualidad"
+  },
+ {
+    "imagen": "./img/rt.png",
+    "empresa": "Empresa 1",
+    "cargo": "Cargo 1",
+    "tiempo": "2020"
+  },{
+    "imagen": "./img/hm.png",
+    "empresa": "Empresa 1",
+    "cargo": "Cargo 1",
+    "tiempo": "2018"
+  },
+  {
+    "imagen": "./img/logo1.png",
+    "empresa": "Empresa 1",
+    "cargo": "Cargo 1",
+    "tiempo": "2017"
+  },
+  {
+    "imagen": "./img/logo2.png",
+    "empresa": "Empresa 1",
+    "cargo": "Cargo 1",
+    "tiempo": "2016"
+  },{
+    "imagen": "./img/LogoLettsar-01.png",
+    "empresa": "Empresa 1",
+    "cargo": "Cargo 1",
+    "tiempo": "2015"
+  },
+  {
+    "imagen": "./img/iasa.png",
+    "empresa": "Empresa 1",
+    "cargo": "Cargo 1",
+    "tiempo": "2010"
+  }
+]

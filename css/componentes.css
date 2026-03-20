@@ -1,0 +1,63 @@
+.expeRiencia {
+  display: flex;
+  flex-direction: column;
+}
+
+.cont_experiencia {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: flex-start;
+}
+
+.cont_experiencia > .card {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 24;
+  max-width: 24%;
+  min-height: 150px;
+}
+
+.card {
+  display: flex;
+  align-items: flex-start;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 15px;
+  gap: 15px;
+}
+
+.card-img {
+  flex: 0 0 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img > img {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+  display: block;
+}
+
+.card-desc {
+  flex: 1;
+  min-width: 0;
+}
+
+.card-desc > p {
+  color: #fff;
+  margin: 0 0 8px;
+}
+.main_experiencia {
+  padding: 10px;
+}
+.card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #e5e7eb;
+}
